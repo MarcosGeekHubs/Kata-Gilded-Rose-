@@ -1,0 +1,16 @@
+{
+  "name": "kata-gilded-rose",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7",
+    "behat/behat": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src",
+      "Kata\\Test\\": "tests"
+    }
+  }
+}

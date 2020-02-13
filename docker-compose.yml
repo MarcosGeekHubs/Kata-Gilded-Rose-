@@ -1,0 +1,11 @@
+version: '3'
+services:
+  webserver:
+    build: .
+    container_name: kata-gilded-rose
+    ports:
+      - "8007:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      XDEBUG_CONFIG: remote_host=host.docker.internal
